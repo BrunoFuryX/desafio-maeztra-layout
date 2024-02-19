@@ -50,7 +50,7 @@ const Fullbanner = () => {
     return <div className={styles.fullbanner}>
         <Slider {...settings} className={styles.slick}>
             <div className={styles.item}>
-                <Image src="/images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
+                <Image src="./images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
                 <div>
                     <h3>
                         Promoções de Outono
@@ -64,7 +64,7 @@ const Fullbanner = () => {
                 </div>
             </div>
             <div className={styles.item}>
-                <Image src="/images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
+                <Image src="./images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
                 <div>
                     <h3>
                         Promoções de Outono
@@ -78,7 +78,7 @@ const Fullbanner = () => {
                 </div>
             </div>
             <div className={styles.item}>
-                <Image src="/images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
+                <Image src="./images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
                 <div>
                     <h3>
                         Promoções de Outono
@@ -92,7 +92,7 @@ const Fullbanner = () => {
                 </div>
             </div>
             <div className={styles.item}>
-                <Image src="/images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
+                <Image src="./images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
                 <div>
                     <h3>
                         Promoções de Outono
@@ -106,7 +106,7 @@ const Fullbanner = () => {
                 </div>
             </div>
             <div className={styles.item}>
-                <Image src="/images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
+                <Image src="./images/fullbanner.png" alt="Imagem Banner" width={1920} height={600} />
                 <div>
                     <h3>
                         Promoções de Outono

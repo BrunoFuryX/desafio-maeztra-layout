@@ -14,8 +14,8 @@ const Main = () => {
                 </svg>
             </div>
             <div className={styles.header_logo}>
-                <Image className={styles.header_desktop} width="147" height="18" src="/images/logo-maeztra-novo.png" alt="Logo Maeztra" />
-                <Image className={styles.header_mobile} width="110" height="12" src="/images/logo-maeztra-novo.png" alt="Logo Maeztra" />
+                <Image className={styles.header_desktop} width="147" height="18" src="./images/logo-maeztra-novo.png" alt="Logo Maeztra" />
+                <Image className={styles.header_mobile} width="110" height="12" src="./images/logo-maeztra-novo.png" alt="Logo Maeztra" />
             </div>
 
             <div className={styles.header_search}>

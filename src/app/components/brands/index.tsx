@@ -39,21 +39,21 @@ const Brands = () => {
             <h4>Marcas Parceiras</h4>
             <Slider {...settings} className={styles.slick}>
                 <div className={styles.item}>
-                    <Image src="/images/brand-01.png" alt="brand image" width={298} height={62}/>
+                    <Image src="./images/brand-01.png" alt="brand image" width={298} height={62}/>
                 </div>
                 <div className={styles.item}>
-                    <Image src="/images/brand-02.png" alt="brand image" width={298} height={62}/>
+                    <Image src="./images/brand-02.png" alt="brand image" width={298} height={62}/>
                     
                 </div>
                 <div className={styles.item}>
-                    <Image src="/images/brand-03.png" alt="brand image" width={298} height={62}/>
+                    <Image src="./images/brand-03.png" alt="brand image" width={298} height={62}/>
                     
                 </div>
                 <div className={styles.item}>
-                    <Image src="/images/brand-04.png" alt="brand image" width={298} height={62}/>
+                    <Image src="./images/brand-04.png" alt="brand image" width={298} height={62}/>
                 </div>
                 <div className={styles.item}>
-                    <Image src="/images/brand-05.png" alt="brand image" width={298} height={62}/>
+                    <Image src="./images/brand-05.png" alt="brand image" width={298} height={62}/>
                 </div>
             </Slider>
         </div>

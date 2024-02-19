@@ -16,7 +16,7 @@ const Banner = () => {
                 </p>
             </div>
             <div className={styles.image}>
-                <Image src={"/images/banner1.png"} alt="Banner nova coleção" width={1114} height={684}/>
+                <Image src={"./images/banner1.png"} alt="Banner nova coleção" width={1114} height={684}/>
             </div>
         </div>
     </div>

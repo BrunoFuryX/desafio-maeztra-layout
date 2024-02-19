@@ -10,7 +10,7 @@ const Modal = () => {
         <div className={styles.modal_shadow}>
             <div className={styles.modal_container}>
                 <button className={styles.modal_close} onClick={()=> setClosed(true)}>FECHAR</button>
-                <Image src={"/images/bg-newsletter.jpg"} alt="Homem amarrando tênis" width={426} height={530} />
+                <Image src={"./images/bg-newsletter.jpg"} alt="Homem amarrando tênis" width={426} height={530} />
                 <div className={styles.modal_newsletter}>
                     <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.66659 5.14331H23.3333C24.6166 5.14331 25.6666 6.25558 25.6666 7.61501V22.4452C25.6666 23.8047 24.6166 24.9169 23.3333 24.9169H4.66659C3.38325 24.9169 2.33325 23.8047 2.33325 22.4452V7.61501C2.33325 6.25558 3.38325 5.14331 4.66659 5.14331Z" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" />

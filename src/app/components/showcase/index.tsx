@@ -74,7 +74,7 @@ const Showcase = () => {
 
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
@@ -91,7 +91,7 @@ const Showcase = () => {
                 </div>
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
@@ -108,7 +108,7 @@ const Showcase = () => {
                 </div>
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
@@ -125,7 +125,7 @@ const Showcase = () => {
                 </div>
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
@@ -142,7 +142,7 @@ const Showcase = () => {
                 </div>
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
@@ -159,7 +159,7 @@ const Showcase = () => {
                 </div>
                 <div className={styles.item}>
                     <div className={styles.image}>
-                        <Image src={"/images/product1.png"} alt="imagem produto" width={308} height={465} />
+                        <Image src={"./images/product1.png"} alt="imagem produto" width={308} height={465} />
                     </div>
                     <div className={styles.colors}>
                         <div className={styles.beje}></div>
