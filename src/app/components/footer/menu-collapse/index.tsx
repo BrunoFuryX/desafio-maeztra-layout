@@ -20,7 +20,7 @@ const MenuCollapse = ({title, items} : MenuCollapse) => {
     return <div className={styles.menu}>
         <div className={styles.menu_title} onClick={() => setOpen(!open)}><h5>{title}</h5> <span>+</span></div>
         <ul className={styles.menu_list} aria-hidden={!open}>
-            {items.map(item => {return <li className={styles.menu_item}><a href={item.link}>{item.text}</a></li>})}
+            {items.map((item, i) => {return <li key={"menu"+title+i} className={styles.menu_item}><a href={item.link}>{item.text}</a></li>})}
         </ul>
     </div>
 }
