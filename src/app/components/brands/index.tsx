@@ -14,19 +14,25 @@ const Brands = () => {
         arrows: false,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 620,
+                breakpoint: 950,
                 settings: {
                     slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 650,
                 settings: {
                     slidesToShow: 1,
                 }

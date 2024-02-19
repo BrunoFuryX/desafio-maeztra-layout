@@ -45,24 +45,30 @@ const Showcase = () => {
         prevArrow: <PrevArrow />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1400,
                 settings: {
-                    arrows: false,
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
                     slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 620,
+                breakpoint: 950,
                 settings: {
-                    arrows: false,
                     slidesToShow: 2,
+                    arrows: false,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 650,
                 settings: {
-                    arrows: false,
                     slidesToShow: 1,
+                    arrows: false,
+
                 }
             }
         ]
