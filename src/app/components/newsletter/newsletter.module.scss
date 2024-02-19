@@ -1,0 +1,158 @@
+.newsletter {
+    width: 100%;
+    background: #fafafa;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        max-width: 1600px;
+        padding: 40px 15px;
+        margin: auto;
+        form {
+            display: flex;
+            input {
+                width: calc(100% - 120px);
+                height: 100%;
+                background: transparent;
+                appearance: none;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #353535;
+                border: 1px solid #353535;
+                padding: 0 24px;
+                outline: none;
+            }
+
+            button {
+                width: 120px;
+                height: 100%;
+                background: #faa500;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #faa500;
+                border-radius:  0 4px 4px 0  ;
+
+            }
+        }
+        @media (min-width:1024px) {
+            h3{
+                width:21%;
+                min-width:307px;
+            }
+            form {
+                width: 40%;
+                height: 40px;
+                background: #fff;
+                border-radius: 8px;
+                display: flex;
+    
+                input {
+                    width: calc(100% - 120px);
+                    height: 100%;
+                    background: transparent;
+                    appearance: none;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #353535;
+                    border: 1px solid #353535;
+                    border-right: 0;
+                    border-radius: 4px 0 0 4px ;
+                    padding: 0 24px;
+                    outline: none;
+                }
+    
+                button {
+                    width: 120px;
+                    height: 100%;
+                    background: #faa500;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #faa500;
+                    border-radius:  0 4px 4px 0  ;
+    
+                }
+            }
+        }
+        @media (max-width:1024px) {
+            flex-direction: column;
+            gap: 8px;
+            h3{
+                width: 100%;
+                text-align: center!important;
+            }
+            form {
+                display: flex;
+                height:26px;
+                gap: 15px;
+                align-items: center;
+                justify-content: center;
+                input {
+                    height: 100%;
+                    background: #fff;
+                    appearance: none;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #353535;
+                    border: 1px solid #353535;
+                    border-radius: 4px ;
+                    padding: 0 24px;
+                    outline: none;
+                }
+    
+                button {
+                    width: 80px;
+                    height: 100%;
+                    background: #faa500;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    letter-spacing: 0px;
+                    text-align: center;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #faa500;
+                    border-radius:  4px ;
+    
+                }
+            }
+        }
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 37px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+    }
+}

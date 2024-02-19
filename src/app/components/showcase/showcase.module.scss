@@ -1,0 +1,126 @@
+.showcase {
+    width: 100%;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 1600px;
+        margin: auto;
+        @media (max-width: 1024px) {
+            padding: 0 25px 0 10px;
+        }
+        h4 {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #353535;
+        }
+    }
+}
+
+.item {
+    display: flex !important;
+    flex-direction: column;
+    gap: 8px;
+    width: 308px !important;
+    margin: 0 15px;
+
+    .image {
+        position: relative;
+        width: 308px;
+        height: 381px;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            top: -12%;
+        }
+    }
+
+    .colors {
+        display: flex;
+        gap: 8px;
+
+        .beje {
+            width: 27px;
+            height: 27px;
+            border-radius: 4px;
+            border: 1px solid black;
+            background: #DEAC71;
+        }
+
+        .salmao {
+            width: 27px;
+            height: 27px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            background: #D37164;
+        }
+
+        .azul {
+            width: 27px;
+            height: 27px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            background: #6497D3;
+        }
+
+        .marinho {
+            width: 27px;
+            height: 27px;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            background: #3C3B79;
+        }
+    }
+
+    .prices {
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #353535;
+        }
+    }
+
+    .name {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .descriptions {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        opacity: .5;
+    }
+
+    .buy {
+        background: #faa500;
+        height: 35px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        border: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+}

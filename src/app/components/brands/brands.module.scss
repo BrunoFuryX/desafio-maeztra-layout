@@ -1,0 +1,44 @@
+.brands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px 60px;
+
+    @media (max-width: 1024px) {
+        padding: 20px 15px 60px 15px;
+    }
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #353535;
+    }
+}
+
+.item {
+    position: relative;
+    max-width: 308px;
+    display: flex !important;
+    align-items: center;
+    border-radius: 4px;
+
+    img {
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px #00000021;
+
+    }
+}

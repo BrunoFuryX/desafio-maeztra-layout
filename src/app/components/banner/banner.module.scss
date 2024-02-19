@@ -1,0 +1,70 @@
+.banner {
+    width: 100%;
+    padding: 20px 0 80px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+        max-width: 1600px;
+        margin: auto;
+
+        @media (max-width:1024px) {
+            padding: 0 31px;
+            flex-direction: column;
+        }
+
+        .texts {
+            max-width: 420px;
+
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 37px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+        .image {
+            position: relative;
+            overflow: hidden;
+            width: 1114px;
+            height: 480px;
+            border-radius: 4px;
+
+            @media (max-width:1024px) {
+                width: 100%;
+                height: auto;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    border-radius: 4px;
+
+                }
+            }
+
+            @media (min-width:1024px) {
+                img {
+                    position: absolute;
+                    top: -10%;
+                    border-radius: 4px;
+
+                }
+            }
+
+        }
+    }
+}
